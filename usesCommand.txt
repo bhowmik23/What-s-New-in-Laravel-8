@@ -7,3 +7,9 @@
 >php artisan migrate
 >php artisan schema:dump //store all previous data in schema directory 
 >php artisan schema:dump --prune
+>php artisan down --secret=biddut
+>php artisan down --render="maintanance"
+>php artisan down --render="erroe::503"
+>php artisan vendor:publish
+>php artisan up
+>php artisan down --render="errors.illustrated-layout"
