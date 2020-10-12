@@ -13,3 +13,4 @@
 >php artisan vendor:publish
 >php artisan up
 >php artisan down --render="errors.illustrated-layout"
+>php artisan make:event GiftCirtificatePurchased
