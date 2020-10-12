@@ -1,0 +1,9 @@
+>composer global update
+>laravel help new
+>laravel new project --dev
+>cd project
+>php artisan -v
+>php artisan serve
+>php artisan migrate
+>php artisan schema:dump //store all previous data in schema directory 
+>php artisan schema:dump --prune
