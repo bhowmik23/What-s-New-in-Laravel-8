@@ -18,3 +18,7 @@ Route::get('/', function () {
     event(new GiftCirtificatePurchased());
     return view('welcome');
 });
+
+Route::get('/downloads', function () {
+    return 'some File::download() call';
+})->middleware('throttle:downloads');
